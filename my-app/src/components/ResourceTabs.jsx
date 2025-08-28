@@ -1,7 +1,7 @@
 export default function ResourceTabs() {
     return (
         <div className="container">
-            <ul className="nav nav-tabs mb-3">
+            <ul className="nav nav-pills mb-3">
                 <li className="nav-item">
                     <a className="nav-link active" aria-current="page" href="#">People</a>
                 </li>
