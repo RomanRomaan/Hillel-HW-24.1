@@ -1,10 +1,10 @@
-// Просто заглушки карточек, чтобы увидеть сетку.
-// Позже подставишь реальные данные из SWAPI.
+// Just placeholders for cards to see the grid.
+// Later, you will substitute real data from SWAPI.
 const placeholders = Array.from({ length: 8 }, (_, i) => ({
     id: i + 1,
-    title: `Заголовок ${i + 1}`,
-    subtitle: "Доп. инфо",
-    text: "Короткое описание ресурса в пару строк. Позже заменится данными из API."
+    title: `Title ${i + 1}`,
+    subtitle: "Additional information",
+    text: "A brief description of the resource in a couple of lines. Will be replaced later with data from the API."
 }));
 
 export default function CardList() {
@@ -20,10 +20,10 @@ export default function CardList() {
                                 <p className="card-text flex-grow-1">{item.text}</p>
                                 <div className="d-flex gap-2">
                                     <button className="btn btn-outline-primary btn-sm" type="button">
-                                        Подробнее
+                                        More
                                     </button>
                                     <button className="btn btn-outline-secondary btn-sm" type="button">
-                                        В избранное
+                                        To Favourite
                                     </button>
                                 </div>
                             </div>
